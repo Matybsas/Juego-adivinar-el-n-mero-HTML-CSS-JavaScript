@@ -22,8 +22,8 @@ body{
 }
 
 .titulo h1 {
-    color: rgb(8, 22, 171);
-    text-shadow: 2px 2px 5px rgb(147, 145, 145);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(4, 103, 252);
     text-align: center;
     font-size: 40px;
     padding: 30px;
