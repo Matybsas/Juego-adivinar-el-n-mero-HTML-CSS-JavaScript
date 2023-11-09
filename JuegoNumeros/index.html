@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Numero</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="titulo">
+            <h1>¡ Proba tu suerte y adivina el número !</h1>
+        </section>
+        <div class="contenedorJuego">
+            <section class="instrucciones">
+                <h3>Ingresa un número del 1 al 100</h3>
+                <h5>Tendrás un máximo de 5 intentos para adivinar el número</h5>
+                <p class="mensaje" id="mensajeUsuario"></p>
+                <br>
+                <p class="intentosRealizados" id="intentosRealizados"></p>
+            </section>
+            <section class="botones">
+                <label for="nombre">Ingresa tu nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Por favor ingresa tu nombre">
+                <br>
+                <label for="numeroUsuario">Ingresa un Numero:</label><br>
+                <input type="number" id="numeroUsuario" placeholder="Ingresa un numero del 0-100">
+                <button onclick="verificarResultado()">Probar Suerte</button>
+               
+
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
