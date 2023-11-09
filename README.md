@@ -1,4 +1,4 @@
-# Juego-adivinar-el-n-mero-HTML-CSS-JavaScript
+# Juego-adivinar-el-número-HTML-CSS-JavaScript
 #Realice un juego de adivinar el numero con un maximo de 5 intentos!!!
 #esta realizado con HTML, CSS, JavaScript.
 #preview
